@@ -8,9 +8,9 @@ Here I have implemented a remote procedure to add two numbers.This program will 
 #### Step 1:
 Create The IDL:
 Create an add.x file which contains the type definitions and the definitions of the remote procedures.
-Compile this file using:
+<br> Compile this file using:<br />
 **rpcgen -a -C add.x**
-After compiling we get:
+<<br >After compiling we get:<br />
 - add.h
 - add_svc.c
 - add_clnt.c
@@ -19,10 +19,10 @@ After compiling we get:
 #### Step 2:
 After compiling the above files,we get two executables:add_client and add_server.Move the add_server to another computer.
 Start the portmapper on the somputer on which the server is going to be run by using:
-**/etc/init.d/rpcbind start**
+<br >**/etc/init.d/rpcbind start**<br />
 Then run the command:
-**./add_server**
+<br >**./add_server**<br />
 On the computer on which the client is to be run execute the command:
-**./add_client ip_address_of_server_computer**
+<br >**./add_client ip_address_of_server_computer**<br />
 
 
