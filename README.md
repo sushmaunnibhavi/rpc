@@ -10,7 +10,7 @@ Create The IDL:
 Create an add.x file which contains the type definitions and the definitions of the remote procedures.
 <br> Compile this file using:<br />
 **rpcgen -a -C add.x**
-<<br >After compiling we get:<br />
+<br >After compiling we get:<br />
 - add.h
 - add_svc.c
 - add_clnt.c
