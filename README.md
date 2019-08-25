@@ -11,10 +11,10 @@ Create an add.x file which contains the type definitions and the definitions of 
 Compile this file using:
 **rpcgen -a -C add.x**
 After compiling we get:
-a.add.h
-b.add_svc.c
-c.add_clnt.c
-d.add_xdr.c
+- add.h
+- add_svc.c
+- add_clnt.c
+- add_xdr.c
 
 #### Step 2:
 After compiling the above files,we get two executables:add_client and add_server.Move the add_server to another computer.
